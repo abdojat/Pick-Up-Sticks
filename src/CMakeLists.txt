@@ -1,0 +1,2 @@
+﻿file (GLOB_RECURSE MY_SOURCE_FILES CONFIGURE_DEPENDS LIST_DIRECTORIES false RELATIVE ${CMAKE_CURRENT_LIST_DIR} *.cpp)
+target_sources (${CMAKE_PROJECT_NAME} PRIVATE ${MY_SOURCE_FILES} "../include/controller.h" "../include/graph.h" "../include/stick.h" "controller.cpp" "window.cpp" "../include/window.h" "../include/board.h" "board.cpp" "graph.cpp" "stick.cpp" "../include/convex.h" "convex.cpp" "../include/saveState.h" "saveState.cpp")
